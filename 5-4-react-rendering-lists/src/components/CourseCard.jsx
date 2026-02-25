@@ -50,6 +50,7 @@ export default function CourseCard({ course, index, onMutateCourse }) {
                 - onDelete={deleteTask}
           */}
           {course.tasks.map((task) => (
+            
             <TaskItem
               key={task.id}
               task={task}
